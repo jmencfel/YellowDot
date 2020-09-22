@@ -1,0 +1,18 @@
+Find and open the attached Unity project of a simple Space Invaders clone called "Laser Defender".
+
+Your task is to finish the game by implementing an enemy waves spawning mechanism and tools for game designers to configure enemy waves.
+
+Keep the following in mind:
+- you can freely modify any code, but try to keep most of your new code within the '_YOUR_CODE_GOES_HERE' folder
+- enemy prefabs are ready within the 'Entities/Enemies' folder, simply spawning them in the scene will be ok for this task
+- your waves manager should spawn the next wave when the previous wave is fully destroyed by the player
+- the designers will work within the Unity Editor to design new enemy types and waves
+- the designers need a way to set the number of enemies of each type and their formation on screen in each eave
+- the game might need hundreds of waves and the game designers might need to change the order of the waves or delete a wave at any time, keep that in mind when designing the tools
+- please design the first few waves using your system so it's easier to grasp
+
+Don't worry if you don't know all the specifications - make them up as you see fit.
+
+Please send your ready project to jmysior@yellow-dot.eu
+You can use an online file transfer system of your choice (GitHub, WeTransfer, GoogleDrive, OneDrive, etc.).
+
