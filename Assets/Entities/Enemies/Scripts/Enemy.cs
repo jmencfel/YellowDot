@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
-	[Header("Stats")]
+ 
+    [Header("Stats")]
     [SerializeField] private float _health = 200f;
     [SerializeField] private int _scoreValue = 150;
 
@@ -34,12 +35,19 @@ public class Enemy : MonoBehaviour {
 	private AudioSource _audioSource;	
 	private ParticleSystem _gotHitParticles;
 
+    [SerializeField] private string prefabName;
+
     public delegate void OnShipDestroyed();
     public event OnShipDestroyed E_ShipDestroyed;
 
+    public GameObject GetPrefabReference()
+    {
+        return (GameObject)Resources.Load(prefabName);
+    }
     private void Start ()
 	{
-		_spriteRenderer = this.GetComponentInChildren<SpriteRenderer>();
+        
+        _spriteRenderer = this.GetComponentInChildren<SpriteRenderer>();
 		_spriteRenderer.color = _normalColor;
 		
 		_audioSource = this.GetComponent<AudioSource>();

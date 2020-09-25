@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 19952820}
   - component: {fileID: 19861634}
   m_Layer: 10
-  m_Name: EnemyType2
+  m_Name: EnemyType1
   m_TagString: EnemyType1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,15 +48,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d898761bf6f497faa35f41183d7111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 500
-  _scoreValue: 300
-  _shotProjectilePrefab: {fileID: 156412, guid: d55ed09f5584b4808af41cf083957e45,
+  _health: 200
+  _scoreValue: 150
+  _shotProjectilePrefab: {fileID: 194464, guid: 3ed9a14574ed84f578eb9ec742dba758,
     type: 3}
-  _initialWeaponDelay: 4
-  _baseLaserSpeed: 4
-  _firingIntervalMin: 2
-  _firingIntervalMax: 3
-  _shootsInBursts: 1
+  _initialWeaponDelay: 3
+  _baseLaserSpeed: 3
+  _firingIntervalMin: 0.8
+  _firingIntervalMax: 1.4
+  _shootsInBursts: 0
   _score3DTextPrefab: {fileID: 138002, guid: 95966f6f0487d4c6c9a10da963807da4, type: 3}
   _deathExplosionPrefab: {fileID: 115230, guid: 08300005f33f242edb0d8ae82c86b39d,
     type: 3}
@@ -78,8 +78,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 117876a9fc42e4c5c871f1ba53100741, type: 3}
   - {fileID: 8300000, guid: cc21b33f0786f4ba5996d33053eae4fd, type: 3}
   _deathSound: {fileID: 8300000, guid: 7b9375e97a5a84e46a3b201dc30e14ed, type: 3}
-  _normalColor: {r: 0.6156863, g: 0.52156866, b: 0.6313726, a: 1}
+  _normalColor: {r: 0.37647063, g: 0.33333334, b: 0.33333334, a: 1}
   _gotHitColor: {r: 0.7568628, g: 0.36862746, b: 0.36862746, a: 1}
+  enemyPrefab: {fileID: 147804}
+  prefabName: EnemyType1
 --- !u!95 &9544380
 Animator:
   serializedVersion: 3
@@ -5024,8 +5026,8 @@ SpriteRenderer:
   m_SortingLayerID: -832512669
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2258909f7de604f1592e4a0c17c924b1, type: 3}
-  m_Color: {r: 0.6156863, g: 0.52156866, b: 0.6313726, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5cc1286d3c8ba402daec602bcc8b5cb4, type: 3}
+  m_Color: {r: 0.9117647, g: 0.8246107, b: 0.8246107, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5073,7 +5075,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.025, y: 1.05}
+    oldSize: {x: 1.03, y: 0.84}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

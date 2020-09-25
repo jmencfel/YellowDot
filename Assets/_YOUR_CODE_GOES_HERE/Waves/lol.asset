@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5c76720cc9684a4097bd19a920bd7eb, type: 3}
-  m_Name: 1
+  m_Name: lol
   m_EditorClassIdentifier: 
-  pattern: 1
+  pattern: 2
   enemies:
-  - {fileID: 147804, guid: afafef5715cace0468c5eb5421d20ac8, type: 3}
-  - {fileID: 147804, guid: afafef5715cace0468c5eb5421d20ac8, type: 3}
   - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
   - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
   - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
@@ -38,8 +36,27 @@ MonoBehaviour:
   - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
   - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
   - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
-  - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
-  - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
-  - {fileID: 147804, guid: 0235215c6406a4e5d93759ea07062947, type: 3}
-  enemyLocations: []
-  vecticalSpacing: 1.5
+  enemyLocations:
+  - {x: 4.6336837, y: 4.56551, z: 0}
+  - {x: 4.66, y: 3.46, z: 0}
+  - {x: 4.7126307, y: 2.433455, z: 0}
+  - {x: 4.686315, y: 1.4069104, z: 0}
+  - {x: 5.7652626, y: 1.4332318, z: 0}
+  - {x: 6.949473, y: 1.4332318, z: 0}
+  - {x: -0.81301117, y: 1.1744851, z: 0}
+  - {x: 1.1343569, y: 2.227352, z: 0}
+  - {x: 1.3975152, y: 3.1486104, z: 0}
+  - {x: 1.239621, y: 4.1751547, z: 0}
+  - {x: 0.08172643, y: 4.5699797, z: 0}
+  - {x: -1.1814322, y: 4.517337, z: 0}
+  - {x: -2.0761685, y: 3.727687, z: 0}
+  - {x: -2.102485, y: 2.7011418, z: 0}
+  - {x: -1.52, y: 1.86, z: 0}
+  - {x: 0.32, y: 1.41, z: 0}
+  - {x: -5.2603793, y: 1.3060937, z: 0}
+  - {x: -6.4445896, y: 1.3060937, z: 0}
+  - {x: -7.523537, y: 1.2797723, z: 0}
+  - {x: -7.4972215, y: 2.3063169, z: 0}
+  - {x: -7.549853, y: 3.332862, z: 0}
+  - {x: -7.5761685, y: 4.4383717, z: 0}
+  vecticalSpacing: 0

@@ -6,9 +6,12 @@ using UnityEngine;
 public class Wave : ScriptableObject 
 {
     public Pattern pattern;
-    public List<Enemy> enemies;
-    public float vecticalSpacing;
-    public float horizontalMaxShips;
+    [Header("Enemies in wave")]
+    public List<GameObject> enemies;
+    public float vecticalSpacing =0;
+
+    [Header("Only for custom pattern")]
+    public List<Vector3> enemyLocations;
 }
 
-public enum Pattern { Triangle, Line }
+public enum Pattern { Triangle, Line, Custom }

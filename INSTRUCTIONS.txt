@@ -1,0 +1,30 @@
+To generate a new wave with a standard pattern:
+1.Right Click in project view
+2. Create/Wave
+
+Patterns:
+Line - spawns enemies one by one next to one another, after 15, moves to a new line
+Triangle - First line as in Line pattern, then next line becomes narrower and so on
+Custom - custom - makes use of enemyPositions property and spawns enemies accorging to indices in each list.
+
+Enemies is a list of prefab references in order of spawning
+VecticalSpacing - self explanatory
+
+
+Wave assets have to be plugged in to WavesManager ( EnemyWaves list)
+
+
+To create a CUSTOM pattern:
+
+simply drag and drop enemy prefabs onto the scene view
+To generate a wave asset simply :
+
+1st way: In the top menu press Waves/Generate from Scene View
+2nd way: Open WavesManager in inspector and press Generate wave file button at the bottom of WavesManager script
+
+Warning: ALL ENEMY OBJECTS WILL BE REMOVED FROM SCENE VIEW:
+
+References to prefabs and their locations will be saved to a new wave asset simply named
+"newWave". Pattern will be set to "Custom"
+Such waves can be plugged in the same way to waves manager.
+
